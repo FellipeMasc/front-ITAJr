@@ -1,0 +1,69 @@
+:root {
+    --transition: all 0.3s linear;
+    --transition-links: all 0.1s linear;
+    /* cores principais */
+    --blueJr: #083AF3;
+    --yellowJr: #E6D11F;
+    --lightBlueJr: #8FE1FA;
+    /* cores secundárias */
+    --color-1: hsl(209, 61%, 16%);
+    --color-2: hsl(209, 9%, 51%);
+}
+
+
+.cardlist-card{
+    color: #fff;
+    display: flex;
+    max-width: 300px;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.cardlist-icon{
+    font-size: 4rem;
+    color: var(--yellowJr);
+}
+
+.cardlist-card .cardlist-description{
+    display: none;
+}
+
+.cardlist-img-container{
+    margin: auto 0;
+    width: 100px;
+    height: 200px;
+    border-right: 2px solid var(--yellowJr);
+}
+
+.cardlist-icons span{
+    margin-top: 3rem;
+}
+
+.cardlist-description{
+    margin-top: 2rem;
+    transform: translateX(-10%);
+    transition: transform 0.1s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.cardlist-description .show{
+    transform: translateX(0);
+}
+
+
+.cardlist-title-container{
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+.cardlist-title-container p{
+    font-size: 1.3rem;
+}
+
+
+/* .cardlist-card:hover .cardlist-description{
+    display:inline-block
+}
+
+.cardlist-card:hover .cardlist-img-container{
+    display: none;
+} */

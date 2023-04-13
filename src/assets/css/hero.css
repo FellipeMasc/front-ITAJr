@@ -1,0 +1,76 @@
+:root {
+    --transition: all 0.3s linear;
+    --transition-links: all 0.1s linear;
+    /* cores principais */
+    --blueJr: #083AF3;
+    --yellowJr: #E6D11F;
+    --lightBlueJr: #8FE1FA;
+    /* cores secundárias */
+    --color-1: hsl(209, 61%, 16%);
+    --color-2: hsl(209, 9%, 51%);
+}
+
+.hero {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/Background1.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-icon{
+    margin: 0 auto;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.hero-banner {
+    text-align: center;
+    padding: 0 3rem;
+    color: #fff;
+}
+
+.hero-banner h1{
+    color: var(--blueJr);
+}
+
+.fa-beat {
+    -webkit-animation: fa-beat 2s infinite linear;
+    animation: fa-beat 2s infinite linear;
+}
+
+@-webkit-keyframes fa-beat {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes fa-beat {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+

@@ -1,0 +1,31 @@
+:root {
+    --transition: all 0.3s linear;
+    --transition-links: all 0.1s linear;
+    /* cores principais */
+    --blueJr: #083AF3;
+    --yellowJr: #E6D11F;
+    --lightBlueJr: #8FE1FA;
+    /* cores secundárias */
+    --color-1: hsl(209, 61%, 16%);
+    --color-2: hsl(209, 9%, 51%);
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Raleway;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

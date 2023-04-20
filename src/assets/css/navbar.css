@@ -10,9 +10,11 @@
     --color-2: hsl(209, 9%, 51%);
 }
 .navbar {
+    position: fixed;
     background-color: var(--color-2);
     height: 5rem;
     z-index: 10;
+    min-width: 100vw;
 }
 
 .nav-center {
@@ -57,8 +59,16 @@
     transition: var(--transition-links);
 }
 
+.login-link {
+    margin-left: 14rem;
+}
+
 .nav-icons li{
     padding: 0px 10px;
+}
+
+.nav-icons {
+    padding: 0px 0px;
 }
 
 .nav-icon{
@@ -71,6 +81,20 @@
 .nav-icon:hover{
     border-bottom: 1px solid var(--yellowJr);
 }
+
+.login-button{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.login-button span{
+    padding-right: 11px;
+}
+
+.login-button:hover{
+    color: var(--yellowJr);
+}
+
 
 h1{
     font-family:"Open Sans", sans-serif;

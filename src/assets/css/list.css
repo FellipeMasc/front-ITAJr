@@ -12,7 +12,7 @@
 
 
 .list{
-    background: hsl(209, 61%, 16%);
+    background: var(--color-1);
     background-size: cover;
     padding: 2rem 0;
 }

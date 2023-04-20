@@ -3,7 +3,7 @@ import "../assets/css/list.css"
 
 export const List = () => {
     return (
-        <div className="list" id="list">
+        <div className="list" id="list" data-list-path="/list">
             <div className="list-title">
                 <h2>
                     ÁREAS DE <br></br>

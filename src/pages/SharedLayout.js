@@ -1,5 +1,5 @@
-import { Link, Outlet } from "react-router-dom";
-import { Navbar } from "../components/Navbar";
+import { Link, Outlet } from "react-router-dom"
+import { Navbar } from "../components/Navbar"
 
 export const SharedLayout = () => {
     return (
@@ -7,5 +7,5 @@ export const SharedLayout = () => {
             <Navbar />
             <Outlet />
         </>
-    );
-};
+    )
+}

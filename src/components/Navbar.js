@@ -54,12 +54,15 @@ export const Navbar = () => {
                             Contacts
                         </NavLink>
                     </li>
-                    <li>
+                    <li className="login-link">
                         <NavLink
                             to="/login"
                             className={({ isActive }) => (isActive ? "link-active" : "link")}
                         >
-                            Login
+                            <div className="login-button">
+                                <span className="material-symbols-outlined">login</span>
+                                Login
+                            </div>
                         </NavLink>
                     </li>
                 </ul>

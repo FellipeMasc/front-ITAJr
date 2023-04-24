@@ -5,12 +5,13 @@ import { useRef } from "react"
 export const Navbar = () => {
     const button = useRef(null)
 
-    const changeUrl = (e) => {
+    const changeUrl_list = (e) => {
         console.log(window.location.href)
         window.location.href = "http://localhost:3000/#list"
-        /* setTimeout(() => {
-            changeList()
-        }, 2000) */
+    }
+    const changeUrl_about = (e) => {
+        console.log(window.location.href)
+        window.location.href = "http://localhost:3000/#about"
     }
 
     /* const changeList = (e) => {
@@ -34,16 +35,23 @@ export const Navbar = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink
-                            to="/about"
-                            className={({ isActive }) => (isActive ? "link-active" : "link")}
+                        <a
+                            href="#list"
+                            className="button-icon"
+                            ref={button}
+                            onClick={changeUrl_list}
                         >
-                            About
-                        </NavLink>
+                            Services
+                        </a>
                     </li>
                     <li>
-                        <a href="#list" className="button-icon" ref={button} onClick={changeUrl}>
-                            Services
+                        <a
+                            href="#about"
+                            className="button-icon"
+                            ref={button}
+                            onClick={changeUrl_about}
+                        >
+                            About
                         </a>
                     </li>
                     <li>

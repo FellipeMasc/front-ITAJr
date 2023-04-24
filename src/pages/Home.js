@@ -8,9 +8,9 @@ export const Home = () => {
 
     useEffect(() => {
         //Adicionar o bot toda vez que a pagina home renderiza (first render - react)
-        /* const home = refContainer.current
+        const home = refContainer.current
 
-        if (!home.querySelector("script")) {
+        /* if (!home.querySelector("script")) {
             var script = document.createElement("script")
             window.CollectId = "6431d3082f45336a32164d74"
             var h = home

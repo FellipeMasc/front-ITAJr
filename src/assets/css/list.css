@@ -15,6 +15,7 @@
     background: var(--color-1);
     background-size: cover;
     padding: 2rem 0;
+    scroll-margin-top: 4rem;
 }
 
 

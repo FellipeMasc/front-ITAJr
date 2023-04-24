@@ -14,6 +14,7 @@
     background: hsl(209, 74%, 6%);
     background-size: cover;
     padding: 2rem 0;
+    scroll-margin-top: 4rem;
 }
 
 .list-title-about{

@@ -1,5 +1,6 @@
 import { CardAbout } from "../components/CardAbout"
 import "../assets/css/about.css"
+
 export const About = () => {
     return (
         <div id="about" className="about">

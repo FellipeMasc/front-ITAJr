@@ -28,17 +28,69 @@
 }
 
 .aside-list{
-    background-color: #fff;
+    background-color: var(--color-1);
     height: 400px;
     width: 500px;
+    font-size: 1rem;
 }
 
 .aside-contact{
-    background-color: #fff;
     height: 100%;
+    color: #fff;
     /* width:500px; */
 }
 
+.aside-contact h2{
+    color: #fff;
+    font-size: 2.3rem;
+    padding-left: 1rem;
+    border-left: 2px solid var(--yellowJr);
+}
+
+.aside-icons{
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+}
+
+.aside-icons li{
+    text-align: center;
+    height: 62px;
+    box-sizing: border-box; /* ajeitar a movimentação dos li embaixo com o border box */
+}
+
+.aside-icons li:hover{
+    border-bottom: 2px solid var(--yellowJr);
+}
+
+.aside-icons i{
+    box-sizing: border-box;
+    padding: 1.3rem;
+}
+
+.aside-icons a{
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.aside-footer{
+    display: flex;
+    justify-content: center; 
+}
+
+.aside-footer .email{
+    border-left: 2px solid var(--yellowJr);
+    padding-left: 2rem;
+}
+.aside-footer .telefone{
+    padding-right: 2rem;
+}
+
+.aside-contact .endereco{
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--yellowJr);
+}
 .card-contact{
     background-color: #fff;
     height: 400px;

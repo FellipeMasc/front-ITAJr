@@ -11,6 +11,7 @@
 }
 .navbar {
     position: fixed;
+    top: 0; /* fixo em cima */
     background-color: var(--color-2);
     height: 5rem;
     z-index: 10;

@@ -20,7 +20,7 @@ export const CardAbout = (props) => {
     return (
         <article className="cardabout-card" ref={parent} onMouseOver={addOver} onMouseOut={addOut}>
             <div className="cardabout-img-container">
-                <a className="cardabout-icons" href="https://www.facebook.com" ref={icon}>
+                <a className="cardabout-icons" href="#contact" ref={icon}>
                     <span className="material-symbols-outlined cardabout-icon">{`${logo}`}</span>
                 </a>
             </div>

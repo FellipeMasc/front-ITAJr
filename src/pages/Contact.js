@@ -4,7 +4,7 @@ import { AsideContact } from "../components/AsideContact"
 
 export const Contact = () => {
     return (
-        <section className="contact">
+        <section className="contact" id="contact">
             <div className="contact-list">
                 <CardContact></CardContact>
                 <AsideContact></AsideContact>

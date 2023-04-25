@@ -1,4 +1,4 @@
-import { CardAbout } from "../components/CardAbout"
+import { CardAbout } from "./CardAbout"
 import "../assets/css/about.css"
 
 export const About = () => {

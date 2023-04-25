@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react"
 import { Hero } from "../components/Hero"
 import { List } from "../components/List"
-import { About } from "./About"
+import { About } from "../components/About"
 
 export const Home = () => {
     const refContainer = useRef(null)

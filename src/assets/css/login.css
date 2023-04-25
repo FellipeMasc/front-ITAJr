@@ -92,3 +92,17 @@
 .login-footer a:hover{
     color: #4e6dde;
 }
+
+#email{
+    background-image: url("../images/account_circle_FILL0_wght400_GRAD0_opsz48.svg");
+    background-size: 1.3rem;
+    background-repeat: no-repeat;
+    background-position: right 0.2rem bottom 0.45rem;
+}
+
+#password{
+    background-image: url("../images/lock_FILL0_wght400_GRAD0_opsz48.svg");
+    background-size: 1.3rem;
+    background-repeat: no-repeat;
+    background-position: right 0.2rem bottom 0.45rem;
+}

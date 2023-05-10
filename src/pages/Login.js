@@ -8,9 +8,7 @@ export const Login = () => {
             <LoginForm></LoginForm>
             <footer className="login-footer">
                 <p>É a sua primeira vez aqui?</p>
-                <a href="#criar" className="last-p">
-                    Crie uma conta
-                </a>
+                <a href="#criar">Crie uma conta</a>
             </footer>
         </div>
     )

@@ -1,4 +1,5 @@
 import { useState } from "react"
+import axios from "axios"
 
 export const LoginForm = () => {
     const [email, SetEmail] = useState(null)
@@ -12,10 +13,18 @@ export const LoginForm = () => {
         SetPass(e.target.value)
     }
 
-    const handleForm = (e) => {
+    const handleForm = async (e) => {
         e.preventDefault()
-        console.log(email)
-        console.log(pass)
+        console.log("flow ne")
+        try {
+            const resp = await axios.post("http://localhost:5000/api/v1/login", {
+                name: email,
+                password: pass,
+            })
+            console.log(resp.data)
+        } catch (error) {
+            console.log(error)
+        }
     }
 
     return (

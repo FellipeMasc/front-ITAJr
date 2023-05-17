@@ -106,3 +106,47 @@
     background-repeat: no-repeat;
     background-position: right 0.2rem bottom 0.45rem;
 }
+
+.dashboard-screen {
+    background-color: hsl(209, 73%, 20%);
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.dashboard-card {
+    background-color: var(--lightBlueJr);
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.btn-dashboard{
+    color: #fff;
+    box-sizing: border-box;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    /* margin-bottom: 1.5rem; */
+    padding: 0.6rem;
+    background-color: #102c90;
+    border-radius: 10px;
+}
+
+.dashboard-header{
+    font-size: 2rem;
+    color: var(--yellowJr);
+}
+
+.dashboard-footer{
+    font-size: 2rem;
+}

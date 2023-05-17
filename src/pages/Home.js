@@ -10,7 +10,7 @@ export const Home = () => {
         //Adicionar o bot toda vez que a pagina home renderiza (first render - react)
         const home = refContainer.current
 
-        if (!home.querySelector("script")) {
+        /* if (!home.querySelector("script")) {
             var script = document.createElement("script")
             window.CollectId = "6431d3082f45336a32164d74"
             var h = home
@@ -18,7 +18,7 @@ export const Home = () => {
             script.async = true
             script.setAttribute("src", "https://collectcdn.com/launcher.js") // caminho relativo para o arquivo launcher.js
             h.appendChild(script)
-        }
+        } */
     }, [])
 
     return (

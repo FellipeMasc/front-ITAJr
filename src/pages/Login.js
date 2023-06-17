@@ -1,10 +1,9 @@
 import { LoginForm } from "../components/LoginForm"
 import "../assets/css/login.css"
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useState } from "react"
 
 export const Login = () => {
     const [user, setUser] = useState(null)
-    const flappyContainer = useRef(null)
 
     useEffect(() => {
         if (user) {
@@ -14,7 +13,7 @@ export const Login = () => {
 
     if (user) {
         return (
-            <div className="dashboard-screen" ref={flappyContainer}>
+            <div className="dashboard-screen">
                 <div className="dashboard-card">
                     <header className="dashboard-header">{`${user.msg}`}</header>
                     <footer className="dashboard-footer">
@@ -23,17 +22,13 @@ export const Login = () => {
                     <button
                         className="btn-dashboard"
                         onClick={() => {
-                            {
-                                setUser(null)
-                                localStorage.setItem("token", "")
-                            }
+                            setUser(null)
+                            localStorage.setItem("token", "")
                         }}
                     >
                         Voltar para o login
                     </button>
                 </div>
-
-                <div className="flappycontainer" ref={flappyContainer}></div>
             </div>
         )
     }
